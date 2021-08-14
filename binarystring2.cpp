@@ -2,6 +2,7 @@
 
 using namespace std;
 //Sử dụng BackTracking để in ra tất cả chuỗi nhị phân độ dài n
+//Bài này thuộc dạng toán chia để trị
 void Out(int n,int arr[]){
     for(int i=1;i<=n;i++){
         cout<<arr[i]<<" ";
