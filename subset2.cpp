@@ -10,6 +10,7 @@ void Out(int k,int arr[]){
 }
 void Try(int n,int arr[],int k,int x){
     //Mỗi phần tử nằm ở vị trí i đều có giá trị lớn nhất và giá trị nhỏ nhất
+    //Khi bớt 1 phần tử thì bài toán sẽ thành bài toán nhở hơn
     for(int i=x;i<=n-k+x;i++){
         arr[x]=i;
         if(x==k) Out(k,arr);
